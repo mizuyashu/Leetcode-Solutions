@@ -6,7 +6,7 @@
  * };
  */
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
-    // placeholder box
+    // throwaway box that the first node points to 
     struct ListNode one;
     struct ListNode *tail = &one;
     one.next = NULL;
